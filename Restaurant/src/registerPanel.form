@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="form.registerPanel">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="407"/>
+    </constraints>
+    <properties>
+      <preferredSize width="500" height="500"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="86a9" class="javax.swing.JLabel">
+        <constraints border-constraint="North"/>
+        <properties>
+          <font size="36"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Bejelentkezés"/>
+        </properties>
+      </component>
+      <component id="31730" class="javax.swing.JButton" binding="loginButton">
+        <constraints border-constraint="South"/>
+        <properties>
+          <font size="18"/>
+          <text value="Bejelentkezés"/>
+        </properties>
+      </component>
+      <grid id="bfa5a" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <alignmentX value="0.5"/>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+        <border type="none"/>
+        <children>
+          <grid id="1825d" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="North"/>
+            <properties>
+              <preferredSize width="119" height="149"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="f87ec" class="javax.swing.JTextField" binding="username" custom-create="true">
+                <constraints border-constraint="South"/>
+                <properties>
+                  <margin top="2" left="6" bottom="2" right="6"/>
+                  <opaque value="true"/>
+                  <preferredSize width="500" height="30"/>
+                  <requestFocusEnabled value="true"/>
+                </properties>
+              </component>
+              <component id="b922b" class="javax.swing.JLabel">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <font size="18"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <labelFor value="f87ec"/>
+                  <text value="Felhasználónév"/>
+                  <verticalAlignment value="0"/>
+                </properties>
+              </component>
+              <component id="ca81" class="javax.swing.JButton" binding="bejelentkezéshezButton" default-binding="true">
+                <constraints border-constraint="North"/>
+                <properties>
+                  <text value="Regisztrációhoz"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="fae66" layout-manager="BorderLayout" hgap="0" vgap="40">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <preferredSize width="119" height="149"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="6a8e3" class="javax.swing.JLabel">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <font size="18"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <labelFor value="f87ec"/>
+                  <text value="Jelszó"/>
+                  <verticalAlignment value="0"/>
+                </properties>
+              </component>
+              <component id="c1473" class="javax.swing.JPasswordField" binding="password">
+                <constraints border-constraint="South"/>
+                <properties/>
+              </component>
+              <vspacer id="ae8ad">
+                <constraints border-constraint="North"/>
+              </vspacer>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
