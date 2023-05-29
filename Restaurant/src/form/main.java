@@ -9,4 +9,5 @@ public class main {
     private JComboBox comboBox4;
     private JButton rendelésButton;
     private JButton kijelentkezésButton;
+    private JTextField textField1;
 }

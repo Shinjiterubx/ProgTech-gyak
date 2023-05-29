@@ -9,7 +9,4 @@ public class registerPanel {
     private JPasswordField password;
     private JButton bejelentkezéshezButton;
 
-    private void createUIComponents() {
-        // TODO: place custom component creation code here
-    }
 }

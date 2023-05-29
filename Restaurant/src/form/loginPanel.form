@@ -42,7 +42,7 @@
             </properties>
             <border type="none"/>
             <children>
-              <component id="a2744" class="javax.swing.JTextField" binding="username" custom-create="true">
+              <component id="a2744" class="javax.swing.JTextField" binding="username">
                 <constraints border-constraint="South"/>
                 <properties>
                   <margin top="2" left="6" bottom="2" right="6"/>
