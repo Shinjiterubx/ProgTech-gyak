@@ -17,9 +17,10 @@ public class registerPanel extends JFrame{
     public registerPanel(){
         this.setTitle("Pizza Pizza Register");
         this.setContentPane(this.registerPanelMain);
-        this.setSize(300,500);
+        this.setSize(200,300);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
+        this.setResizable(false);
         this.setLocationRelativeTo(null);
         this.setVisible(true);
 

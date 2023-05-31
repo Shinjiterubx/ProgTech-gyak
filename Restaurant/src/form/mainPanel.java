@@ -29,6 +29,7 @@ public class mainPanel extends JFrame{
         this.setSize(700,500);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
+        this.setResizable(false);
         this.setLocationRelativeTo(null);
         this.setVisible(true);
         mainPanel panel = this;

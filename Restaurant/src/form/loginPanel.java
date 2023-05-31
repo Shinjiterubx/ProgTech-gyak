@@ -27,6 +27,7 @@ public class loginPanel extends JFrame {
         this.pack();
         this.setLocationRelativeTo(null);
         this.setSize(400,300);
+        this.setResizable(false);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
         loginPanel panel = this;
