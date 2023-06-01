@@ -1,17 +1,30 @@
+import com.mysql.cj.log.Log;
 import form.loginPanel;
 import form.mainPanel;
 import form.registerPanel;
 import dbconn.*;
+import org.apache.log4j.Logger;
+
+import java.util.logging.Level;
 
 import javax.swing.*;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
+
 import javax.swing.UIManager.*;
 
+<<<<<<< Updated upstream
 
 public class Main{
+=======
+public class Main {
+    private static Logger logger = Logger.getLogger(Main.class);
+>>>>>>> Stashed changes
     public static void main(String[] args) {
+
+        logger.info("The main is running");
+
         dbConnect conn = new dbConnect();
         conn.Connect();
         ResultSet result;
