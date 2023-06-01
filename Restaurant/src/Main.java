@@ -27,7 +27,10 @@ public class Main {
         } catch (Exception e) {
 
         }
+        Command command;
 
+
+        System.out.println(command = new selectUsername("lajos"));
         //mainFrame
         //Levizsgáljuk, hogy van-e adatbázis kapcsolat. (xampp fut-e)
         if (conn.isConnectedToDatabase()){
