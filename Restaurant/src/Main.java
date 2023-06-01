@@ -14,13 +14,9 @@ import java.sql.ResultSet;
 
 import javax.swing.UIManager.*;
 
-<<<<<<< Updated upstream
-
-public class Main{
-=======
 public class Main {
-    private static Logger logger = Logger.getLogger(Main.class);
->>>>>>> Stashed changes
+    static Logger logger = Logger.getLogger(Main.class);
+
     public static void main(String[] args) {
 
         logger.info("The main is running");
@@ -52,9 +48,11 @@ public class Main {
         //Levizsgáljuk, hogy van-e adatbázis kapcsolat. (xampp fut-e)
         if (conn.isConnectedToDatabase()){
             loginPanel frame = new loginPanel();
+            logger.info("DB connection is up, opening loginpanel");
         }
         else{
             JOptionPane.showMessageDialog(null, "Nincs adatbázis kapcsolat", "Pizza Pizza InfoBox: ", JOptionPane.INFORMATION_MESSAGE);
+            logger.info("DB connection is down, opening error message");
         }
 
 

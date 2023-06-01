@@ -7,13 +7,8 @@ import static dbconn.dbConnect.*;
 
 public class selectUsername implements Command{
 
-<<<<<<< Updated upstream
     dbConnect conn = new dbConnect();
     ResultSet result;
-=======
-
-
->>>>>>> Stashed changes
     private String Username;
     private String row;
 

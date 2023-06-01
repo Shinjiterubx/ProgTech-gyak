@@ -8,11 +8,13 @@ import java.awt.event.KeyEvent;
 import java.sql.ResultSet;
 
 import dbconn.*;
+import org.apache.log4j.Logger;
 
+import static com.mysql.cj.conf.PropertyKey.logger;
 import static dbconn.dbConnect.*;
 
 public class loginPanel extends JFrame {
-
+    static Logger logger = Logger.getLogger(loginPanel.class);
     private JPanel loginPanelMain;
     private JLabel titleLabel;
     private JButton toRegisterButton;
@@ -22,6 +24,7 @@ public class loginPanel extends JFrame {
     private JButton loginButton;
 
     public loginPanel(){
+        logger.info("Loginpanel is running");
         this.setTitle("Pizza Pizza Login");
         this.setContentPane(this.loginPanelMain);
         this.pack();
@@ -32,6 +35,8 @@ public class loginPanel extends JFrame {
         this.setVisible(true);
         loginPanel panel = this;
 
+
+        logger.info("Loginpanel is connecting to DB");
         //Adatbázis kapcsolat
         dbConnect conn = new dbConnect();
         conn.Connect();
@@ -41,8 +46,10 @@ public class loginPanel extends JFrame {
 
         toRegisterButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                logger.info("Register button is pressed");
                 panel.dispose();
                 registerPanel register = new registerPanel();
+                logger.info("Opening registerPanel");
             }
         });
 
@@ -52,36 +59,48 @@ public class loginPanel extends JFrame {
         //Login button
         loginButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                logger.info("Login button is pressed");
                 String username = usernameInput.getText();
                 String password = new String(passwordInput.getPassword());
+
                 //Felhasználónév és jelszó levizsgálása,
                 // egyezik-e az adatbázisban szereplővel, üresek-
 
-
-
-
+                logger.info("Checking username and password");
                 if (!username.isEmpty()){
+                    logger.info("Username is not empty");
                     selectUsername command = new selectUsername(username);
                     command.exec();
 
                     if (username.equals(command.returnUsername())) {
+                        logger.info("Username is in database");
                         if (!password.isEmpty()) {
+                            logger.info("Password is not empty");
                             if (password.equals(SelectPassword(password))) {
+                                logger.info("Password is in database");
+                                logger.info("Matching login credentials");
+                                logger.info("Closing loginPanel");
                                 panel.dispose();
+                                logger.info("Opening mainPanel");
                                 mainPanel main = new mainPanel();
                                 System.out.println("Login succesfull!");
                             } else {
+                                logger.info("Password is not in database");
+                                logger.info("Login credentials are not matching");
                                 JOptionPane.showMessageDialog(null, "Rossz felhasználónév vagy jelszó!", "Pizza Pizza InfoBox: ", JOptionPane.INFORMATION_MESSAGE);
                             }
                         }
                         else{
+                            logger.info("Password field is empty");
                             JOptionPane.showMessageDialog(null, "Üres jelszó!", "Pizza Pizza InfoBox: ", JOptionPane.INFORMATION_MESSAGE);
                         }
                     } else {
+                        logger.info("Username is not in database");
                         JOptionPane.showMessageDialog(null, "Rossz felhasználónév vagy jelszó!", "Pizza Pizza InfoBox: ", JOptionPane.INFORMATION_MESSAGE);
                     }
                 }
                 else{
+                    logger.info("Username field is empty");
                     JOptionPane.showMessageDialog(null, "Üres felhasználónév vagy jelszó!", "Pizza Pizza InfoBox: ", JOptionPane.INFORMATION_MESSAGE);
                 }
             }

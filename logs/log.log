@@ -1,0 +1,14 @@
+2023-06-01 17:50:50 INFO  Main:22 - The main is running
+  2023-06-01 17:50:50 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-01 17:50:50 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-01 17:50:50 INFO  Main:51 - DB connection is up, opening loginpanel
+  2023-06-01 17:50:53 INFO  loginPanel:62 - Login button is pressed
+  2023-06-01 17:50:53 INFO  loginPanel:69 - Checking username and password
+  2023-06-01 17:50:53 INFO  loginPanel:71 - Username is not empty
+  2023-06-01 17:50:53 INFO  loginPanel:76 - Username is in database
+  2023-06-01 17:50:53 INFO  loginPanel:78 - Password is not empty
+  2023-06-01 17:50:53 INFO  loginPanel:80 - Password is in database
+  2023-06-01 17:50:53 INFO  loginPanel:81 - Matching login credentials
+  2023-06-01 17:50:53 INFO  loginPanel:82 - Closing loginPanel
+  2023-06-01 17:50:53 INFO  loginPanel:84 - Opening mainPanel
+  
