@@ -9,8 +9,10 @@ import java.sql.ResultSet;
 
 
 
-public class dbConnect {
+public class dbConnect{
     static Connection localcon;
+
+    static Command command;
 
 
     public static boolean isConnectedToDatabase(){
@@ -74,6 +76,7 @@ public class dbConnect {
         }
 
         return null;
+
     }
 
     public static String SelectPassword(String Password){

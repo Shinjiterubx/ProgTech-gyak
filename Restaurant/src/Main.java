@@ -9,7 +9,8 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import javax.swing.UIManager.*;
 
-public class Main {
+
+public class Main{
     public static void main(String[] args) {
         dbConnect conn = new dbConnect();
         conn.Connect();
@@ -27,10 +28,13 @@ public class Main {
         } catch (Exception e) {
 
         }
-        Command command;
+
+        selectPassword command = new selectPassword("asd");
+        command.exec();
+        System.out.println(command.returnPassword());
 
 
-        System.out.println(command = new selectUsername("lajos"));
+
         //mainFrame
         //Levizsgáljuk, hogy van-e adatbázis kapcsolat. (xampp fut-e)
         if (conn.isConnectedToDatabase()){

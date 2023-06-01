@@ -1,19 +1,21 @@
 package dbconn;
 
 import java.sql.ResultSet;
-
 import static dbconn.dbConnect.SelectAll;
 import dbconn.*;
+import static dbconn.dbConnect.*;
 
 public class selectUsername implements Command{
 
     dbConnect conn = new dbConnect();
-    conn.Connect();
     ResultSet result;
-
     private String Username;
     private String row;
+
+
     public selectUsername(String username){
+
+        conn.Connect();
         this.Username = username;
     }
     public String returnUsername(){
@@ -36,11 +38,14 @@ public class selectUsername implements Command{
                 if (row.equals(Username)){
                     break;
                 }
+                else{
+                    row = null;
+                }
             }
         } catch (Exception e){
             System.out.println(e);
         }
-        returnUsername();
 
+        returnUsername();
     }
 }

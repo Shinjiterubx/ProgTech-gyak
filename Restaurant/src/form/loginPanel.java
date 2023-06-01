@@ -54,15 +54,29 @@ public class loginPanel extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 String username = usernameInput.getText();
                 String password = new String(passwordInput.getPassword());
-
                 //Felhasználónév és jelszó levizsgálása,
                 // egyezik-e az adatbázisban szereplővel, üresek-
 
-                if (!username.isEmpty() && !password.isEmpty()) {
-                    if (username.equals(SelectUsername(username)) && password.equals(SelectPassword(password))) {
-                        panel.dispose();
-                        mainPanel main = new mainPanel();
-                        System.out.println("Login succesfull!");
+
+
+
+                if (!username.isEmpty()){
+                    selectUsername command = new selectUsername(username);
+                    command.exec();
+
+                    if (username.equals(command.returnUsername())) {
+                        if (!password.isEmpty()) {
+                            if (password.equals(SelectPassword(password))) {
+                                panel.dispose();
+                                mainPanel main = new mainPanel();
+                                System.out.println("Login succesfull!");
+                            } else {
+                                JOptionPane.showMessageDialog(null, "Rossz felhasználónév vagy jelszó!", "Pizza Pizza InfoBox: ", JOptionPane.INFORMATION_MESSAGE);
+                            }
+                        }
+                        else{
+                            JOptionPane.showMessageDialog(null, "Üres jelszó!", "Pizza Pizza InfoBox: ", JOptionPane.INFORMATION_MESSAGE);
+                        }
                     } else {
                         JOptionPane.showMessageDialog(null, "Rossz felhasználónév vagy jelszó!", "Pizza Pizza InfoBox: ", JOptionPane.INFORMATION_MESSAGE);
                     }
