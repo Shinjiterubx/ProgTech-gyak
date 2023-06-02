@@ -1,5 +1,6 @@
 package dbconn;
 import form.*;
+import org.apache.log4j.Logger;
 
 import javax.xml.transform.Result;
 import java.sql.*;
@@ -117,7 +118,6 @@ public class dbConnect{
                 String row = result.getString(1);
                 if (Integer.parseInt(row) == orderNo){
                     if (Integer.parseInt(result.getString(10)) != 1)
-
                     localcon.createStatement().executeUpdate("update orders set hidden = 1 where id = " + orderNo);
                     break;
                 }

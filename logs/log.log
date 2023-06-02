@@ -128,4 +128,1088 @@
   2023-06-02 14:32:01 INFO  loginPanel:27 - Loginpanel is running
   2023-06-02 14:32:01 INFO  loginPanel:39 - Loginpanel is connecting to DB
   2023-06-02 14:32:01 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 14:50:25 INFO  Main:22 - The main is running
+  2023-06-02 14:50:25 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 14:50:25 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 14:50:25 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 14:50:25 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 14:50:25 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 14:50:26 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 14:50:26 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 14:50:29 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 14:50:29 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 14:50:29 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 14:50:29 INFO  loginPanel:76 - Username is in database
+  2023-06-02 14:50:29 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 14:50:29 INFO  loginPanel:81 - Password is in database
+  2023-06-02 14:50:29 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 14:50:29 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 14:50:29 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 14:51:03 INFO  Main:22 - The main is running
+  2023-06-02 14:51:04 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 14:51:04 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 14:51:04 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 14:51:04 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 14:51:04 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 14:51:04 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 14:51:04 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 14:51:07 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 14:51:07 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 14:51:07 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 14:51:07 INFO  loginPanel:76 - Username is in database
+  2023-06-02 14:51:07 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 14:51:07 INFO  loginPanel:81 - Password is in database
+  2023-06-02 14:51:07 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 14:51:07 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 14:51:07 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 14:51:43 INFO  Main:22 - The main is running
+  2023-06-02 14:51:44 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 14:51:44 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 14:51:44 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 14:51:44 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 14:51:44 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 14:51:44 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 14:51:44 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 14:51:46 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 14:51:46 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 14:51:46 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 14:51:46 INFO  loginPanel:76 - Username is in database
+  2023-06-02 14:51:46 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 14:51:46 INFO  loginPanel:81 - Password is in database
+  2023-06-02 14:51:46 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 14:51:46 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 14:51:46 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 14:56:49 INFO  Main:22 - The main is running
+  2023-06-02 14:56:49 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 14:56:49 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 14:56:49 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 14:56:49 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 14:56:49 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 14:56:49 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 14:56:49 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:01:02 INFO  Main:22 - The main is running
+  2023-06-02 15:01:03 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:01:03 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:01:03 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:01:03 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:01:03 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:01:03 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:01:03 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:02:28 INFO  Main:22 - The main is running
+  2023-06-02 15:02:29 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:02:29 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:02:29 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:02:29 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:02:29 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:02:29 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:02:29 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:02:31 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:02:31 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:02:31 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:02:31 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:02:31 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:02:31 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:02:31 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:02:31 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:02:31 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:02:43 INFO  Main:22 - The main is running
+  2023-06-02 15:02:43 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:02:43 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:02:43 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:02:43 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:02:43 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:02:43 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:02:43 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:02:47 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:02:47 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:02:47 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:02:47 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:02:47 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:02:47 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:02:47 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:02:47 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:02:47 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:03:16 INFO  Main:22 - The main is running
+  2023-06-02 15:03:17 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:03:17 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:03:17 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:03:17 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:03:17 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:03:17 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:03:17 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:03:20 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:03:20 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:03:20 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:03:20 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:03:20 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:03:20 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:03:20 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:03:20 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:03:20 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:05:23 INFO  Main:22 - The main is running
+  2023-06-02 15:05:24 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:05:24 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:05:24 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:05:24 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:05:24 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:05:24 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:05:24 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:05:27 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:05:27 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:05:27 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:05:27 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:05:27 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:05:27 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:05:27 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:05:27 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:05:27 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:15:18 INFO  Main:22 - The main is running
+  2023-06-02 15:15:18 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:15:18 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:15:18 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:15:18 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:15:18 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:15:18 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:15:18 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:15:20 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:15:20 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:15:20 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:15:20 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:15:20 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:15:20 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:15:20 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:15:20 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:15:20 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:16:24 INFO  Main:22 - The main is running
+  2023-06-02 15:16:25 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:16:25 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:16:25 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:16:25 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:16:25 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:16:25 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:16:25 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:16:27 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:16:27 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:16:27 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:16:27 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:16:27 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:16:27 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:16:27 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:16:27 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:16:27 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:16:45 INFO  Main:22 - The main is running
+  2023-06-02 15:16:45 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:16:45 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:16:46 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:16:46 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:16:46 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:16:46 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:16:46 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:16:47 INFO  Main:22 - The main is running
+  2023-06-02 15:16:47 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:16:47 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:16:47 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:16:47 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:16:47 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:16:47 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:16:47 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:16:50 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:16:50 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:16:50 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:16:50 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:16:50 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:16:50 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:16:50 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:16:50 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:16:50 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:16:56 INFO  Main:22 - The main is running
+  2023-06-02 15:16:57 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:16:57 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:16:57 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:16:57 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:16:57 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:16:57 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:16:57 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:17:00 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:17:00 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:17:00 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:17:00 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:17:00 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:17:00 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:17:00 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:17:00 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:17:00 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:18:55 INFO  Main:22 - The main is running
+  2023-06-02 15:18:55 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:18:55 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:18:56 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:18:56 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:18:56 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:18:56 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:18:56 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:18:58 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:18:58 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:18:58 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:18:58 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:18:58 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:18:58 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:18:58 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:18:58 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:18:58 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:19:38 INFO  Main:22 - The main is running
+  2023-06-02 15:19:39 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:19:39 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:19:39 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:19:39 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:19:39 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:19:39 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:19:39 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:19:42 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:19:42 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:19:42 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:19:42 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:19:42 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:19:42 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:19:42 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:19:42 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:19:42 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:22:58 INFO  Main:22 - The main is running
+  2023-06-02 15:22:59 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:22:59 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:22:59 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:22:59 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:22:59 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:22:59 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:22:59 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:23:01 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:23:01 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:23:01 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:23:01 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:23:01 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:23:01 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:23:01 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:23:01 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:23:01 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:23:28 INFO  Main:22 - The main is running
+  2023-06-02 15:23:29 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:23:29 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:23:29 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:23:29 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:23:29 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:23:29 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:23:29 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:23:32 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:23:32 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:23:32 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:23:32 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:23:32 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:23:32 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:23:32 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:23:32 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:23:32 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:25:55 INFO  Main:22 - The main is running
+  2023-06-02 15:25:55 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:25:55 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:25:55 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:25:55 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:25:55 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:25:56 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:25:56 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:25:58 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:25:58 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:25:58 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:25:58 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:25:58 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:25:58 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:25:58 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:25:58 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:25:58 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:27:18 INFO  Main:22 - The main is running
+  2023-06-02 15:27:18 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:27:18 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:27:18 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:27:18 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:27:18 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:27:18 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:27:18 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:27:20 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:27:20 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:27:20 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:27:20 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:27:20 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:27:20 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:27:20 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:27:20 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:27:20 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:28:13 INFO  Main:22 - The main is running
+  2023-06-02 15:28:14 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:28:14 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:28:14 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:28:14 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:28:14 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:28:14 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:28:14 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:28:17 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:28:17 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:28:17 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:28:17 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:28:17 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:28:17 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:28:17 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:28:17 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:28:17 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:29:05 INFO  Main:22 - The main is running
+  2023-06-02 15:29:05 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:29:05 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:29:06 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:29:06 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:29:06 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:29:06 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:29:06 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:29:09 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:29:09 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:29:09 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:29:09 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:29:09 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:29:09 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:29:09 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:29:09 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:29:09 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:29:53 INFO  Main:22 - The main is running
+  2023-06-02 15:29:54 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:29:54 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:29:54 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:29:54 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:29:54 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:29:54 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:29:54 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:29:56 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:29:56 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:29:56 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:29:56 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:29:56 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:29:56 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:29:56 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:29:56 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:29:56 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:33:18 INFO  Main:22 - The main is running
+  2023-06-02 15:33:18 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:33:18 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:33:18 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:33:18 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:33:18 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:33:18 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:33:18 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:33:20 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:33:20 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:33:20 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:33:20 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:33:20 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:33:20 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:33:20 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:33:20 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:33:20 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:33:43 INFO  Main:22 - The main is running
+  2023-06-02 15:33:43 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:33:43 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:33:43 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:33:43 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:33:43 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:33:43 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:33:43 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:33:46 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:33:46 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:33:46 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:33:46 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:33:46 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:33:46 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:33:46 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:33:46 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:33:46 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:34:50 INFO  Main:22 - The main is running
+  2023-06-02 15:34:50 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:34:50 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:34:50 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:34:50 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:34:51 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:34:51 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:34:51 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:34:53 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:34:53 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:34:53 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:34:53 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:34:53 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:34:53 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:34:53 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:34:53 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:34:53 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:35:29 INFO  Main:22 - The main is running
+  2023-06-02 15:35:29 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:35:29 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:35:29 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:35:29 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:35:29 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:35:29 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:35:29 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:35:31 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:35:31 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:35:31 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:35:31 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:35:31 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:35:31 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:35:31 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:35:31 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:35:31 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:36:27 INFO  Main:22 - The main is running
+  2023-06-02 15:36:28 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:36:28 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:36:28 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:36:28 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:36:28 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:36:28 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:36:28 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:36:31 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:36:31 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:36:31 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:36:31 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:36:31 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:36:31 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:36:31 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:36:31 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:36:31 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:40:57 INFO  Main:22 - The main is running
+  2023-06-02 15:40:57 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:40:57 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:40:57 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:40:57 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:40:58 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:40:58 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:40:58 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:41:00 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:41:00 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:41:00 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:41:00 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:41:00 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:41:00 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:41:00 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:41:00 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:41:00 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:43:14 INFO  Main:22 - The main is running
+  2023-06-02 15:43:14 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:43:14 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:43:14 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:43:14 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:43:14 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:43:15 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:43:15 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:43:17 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:43:17 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:43:17 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:43:17 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:43:17 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:43:17 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:43:17 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:43:17 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:43:17 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:48:01 INFO  Main:22 - The main is running
+  2023-06-02 15:48:01 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:48:01 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:48:01 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:48:01 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:48:02 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:48:02 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:48:02 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:48:04 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:48:04 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:48:04 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:48:04 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:48:04 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:48:04 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:48:04 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:48:04 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:48:04 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:48:47 INFO  Main:22 - The main is running
+  2023-06-02 15:48:47 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:48:47 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:48:47 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:48:47 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:48:47 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:48:47 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:48:47 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:48:50 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:48:50 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:48:50 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:48:50 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:48:50 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:48:50 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:48:50 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:48:50 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:48:50 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:52:45 INFO  Main:22 - The main is running
+  2023-06-02 15:52:46 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:52:46 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:52:46 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:52:46 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:52:46 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:52:46 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:52:46 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:52:49 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:52:49 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:52:49 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:52:49 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:52:49 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:52:49 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:52:49 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:52:49 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:52:49 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 15:53:49 INFO  Main:22 - The main is running
+  2023-06-02 15:53:50 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 15:53:50 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 15:53:50 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 15:53:50 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 15:53:50 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 15:53:50 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 15:53:50 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 15:53:52 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 15:53:52 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 15:53:52 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 15:53:52 INFO  loginPanel:76 - Username is in database
+  2023-06-02 15:53:52 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 15:53:52 INFO  loginPanel:81 - Password is in database
+  2023-06-02 15:53:52 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 15:53:52 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 15:53:52 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 16:03:54 INFO  Main:22 - The main is running
+  2023-06-02 16:03:54 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 16:03:54 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 16:03:54 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 16:03:54 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 16:03:54 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 16:03:54 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 16:03:54 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 16:03:57 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 16:03:57 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 16:03:57 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 16:03:57 INFO  loginPanel:76 - Username is in database
+  2023-06-02 16:03:57 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 16:03:57 INFO  loginPanel:81 - Password is in database
+  2023-06-02 16:03:57 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 16:03:57 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 16:03:57 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 16:04:20 INFO  Main:22 - The main is running
+  2023-06-02 16:04:20 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 16:04:20 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 16:04:20 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 16:04:20 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 16:04:20 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 16:04:21 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 16:04:21 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 16:04:23 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 16:04:23 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 16:04:23 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 16:04:23 INFO  loginPanel:76 - Username is in database
+  2023-06-02 16:04:23 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 16:04:23 INFO  loginPanel:81 - Password is in database
+  2023-06-02 16:04:23 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 16:04:23 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 16:04:23 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 16:04:43 INFO  Main:22 - The main is running
+  2023-06-02 16:04:43 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 16:04:43 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 16:04:43 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 16:04:44 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 16:04:44 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 16:04:44 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 16:04:44 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 16:04:46 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 16:04:46 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 16:04:46 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 16:04:46 INFO  loginPanel:76 - Username is in database
+  2023-06-02 16:04:46 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 16:04:46 INFO  loginPanel:81 - Password is in database
+  2023-06-02 16:04:46 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 16:04:46 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 16:04:46 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 16:05:29 INFO  Main:22 - The main is running
+  2023-06-02 16:05:29 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 16:05:29 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 16:05:29 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 16:05:29 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 16:05:29 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 16:05:29 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 16:05:29 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 16:05:32 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 16:05:32 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 16:05:32 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 16:05:32 INFO  loginPanel:76 - Username is in database
+  2023-06-02 16:05:32 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 16:05:32 INFO  loginPanel:81 - Password is in database
+  2023-06-02 16:05:32 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 16:05:32 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 16:05:32 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 16:05:54 INFO  Main:22 - The main is running
+  2023-06-02 16:05:54 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 16:05:54 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 16:05:54 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 16:05:54 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 16:05:54 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 16:05:55 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 16:05:55 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 16:05:56 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 16:05:56 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 16:05:56 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 16:05:56 INFO  loginPanel:76 - Username is in database
+  2023-06-02 16:05:56 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 16:05:56 INFO  loginPanel:81 - Password is in database
+  2023-06-02 16:05:56 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 16:05:56 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 16:05:56 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 16:06:13 INFO  Main:22 - The main is running
+  2023-06-02 16:06:13 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 16:06:13 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 16:06:13 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 16:06:13 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 16:06:13 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 16:06:13 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 16:06:13 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 16:06:15 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 16:06:15 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 16:06:15 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 16:06:15 INFO  loginPanel:76 - Username is in database
+  2023-06-02 16:06:15 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 16:06:15 INFO  loginPanel:81 - Password is in database
+  2023-06-02 16:06:15 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 16:06:15 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 16:06:15 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 16:09:35 INFO  Main:22 - The main is running
+  2023-06-02 16:09:35 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 16:09:35 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 16:09:35 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 16:09:35 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 16:09:35 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 16:09:35 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 16:09:35 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 16:09:38 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 16:09:38 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 16:09:38 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 16:09:38 INFO  loginPanel:76 - Username is in database
+  2023-06-02 16:09:38 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 16:09:38 INFO  loginPanel:81 - Password is in database
+  2023-06-02 16:09:38 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 16:09:38 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 16:09:38 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 16:25:45 INFO  Main:22 - The main is running
+  2023-06-02 16:25:46 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 16:25:46 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 16:25:46 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 16:25:46 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 16:25:46 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 16:25:46 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 16:25:46 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 16:25:48 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 16:25:48 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 16:25:48 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 16:25:48 INFO  loginPanel:76 - Username is in database
+  2023-06-02 16:25:48 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 16:25:48 INFO  loginPanel:81 - Password is in database
+  2023-06-02 16:25:48 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 16:25:48 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 16:25:48 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 16:26:17 INFO  Main:22 - The main is running
+  2023-06-02 16:26:17 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 16:26:17 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 16:26:17 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 16:26:17 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 16:26:17 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 16:26:17 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 16:26:17 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 16:26:20 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 16:26:20 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 16:26:20 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 16:26:20 INFO  loginPanel:76 - Username is in database
+  2023-06-02 16:26:20 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 16:26:20 INFO  loginPanel:81 - Password is in database
+  2023-06-02 16:26:20 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 16:26:20 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 16:26:20 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 16:26:25 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 16:26:43 INFO  Main:22 - The main is running
+  2023-06-02 16:26:43 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 16:26:43 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 16:26:43 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 16:26:43 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 16:26:44 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 16:26:44 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 16:26:44 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 16:27:14 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 16:27:26 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 16:27:52 INFO  Main:22 - The main is running
+  2023-06-02 16:27:52 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 16:27:52 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 16:27:52 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 16:27:52 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 16:27:52 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 16:27:53 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 16:27:53 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 16:28:15 INFO  Main:22 - The main is running
+  2023-06-02 16:28:15 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 16:28:15 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 16:28:15 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 16:28:16 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 16:28:16 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 16:28:16 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 16:28:19 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 16:28:19 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 16:28:19 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 16:28:19 INFO  loginPanel:76 - Username is in database
+  2023-06-02 16:28:19 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 16:28:19 INFO  loginPanel:81 - Password is in database
+  2023-06-02 16:28:19 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 16:28:19 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 16:28:19 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 16:28:32 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 16:31:08 INFO  Main:22 - The main is running
+  2023-06-02 16:31:08 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 16:31:08 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 16:31:08 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 16:31:08 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 16:31:08 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 16:31:08 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 16:31:11 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 16:31:11 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 16:31:11 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 16:31:11 INFO  loginPanel:76 - Username is in database
+  2023-06-02 16:31:11 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 16:31:11 INFO  loginPanel:81 - Password is in database
+  2023-06-02 16:31:11 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 16:31:11 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 16:31:11 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 16:33:58 INFO  Main:22 - The main is running
+  2023-06-02 16:33:58 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 16:33:58 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 16:33:58 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 16:33:58 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 16:33:58 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 16:33:58 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 16:34:00 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 16:34:00 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 16:34:00 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 16:34:00 INFO  loginPanel:76 - Username is in database
+  2023-06-02 16:34:00 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 16:34:00 INFO  loginPanel:81 - Password is in database
+  2023-06-02 16:34:00 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 16:34:00 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 16:34:00 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 16:34:03 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 16:34:10 INFO  Main:22 - The main is running
+  2023-06-02 16:34:11 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 16:34:11 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 16:34:11 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 16:34:11 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 16:34:11 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 16:34:11 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 16:34:13 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 16:34:13 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 16:34:13 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 16:34:13 INFO  loginPanel:76 - Username is in database
+  2023-06-02 16:34:13 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 16:34:13 INFO  loginPanel:81 - Password is in database
+  2023-06-02 16:34:13 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 16:34:13 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 16:34:13 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 16:37:00 INFO  Main:22 - The main is running
+  2023-06-02 16:37:00 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 16:37:00 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 16:37:00 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 16:37:01 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 16:37:01 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 16:37:01 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 16:37:03 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 16:37:03 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 16:37:03 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 16:37:03 INFO  loginPanel:76 - Username is in database
+  2023-06-02 16:37:03 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 16:37:03 INFO  loginPanel:81 - Password is in database
+  2023-06-02 16:37:03 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 16:37:03 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 16:37:03 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 16:37:15 INFO  Main:22 - The main is running
+  2023-06-02 16:37:16 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 16:37:16 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 16:37:16 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 16:37:16 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 16:37:16 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 16:37:16 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 16:37:19 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 16:37:19 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 16:37:19 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 16:37:19 INFO  loginPanel:76 - Username is in database
+  2023-06-02 16:37:19 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 16:37:19 INFO  loginPanel:81 - Password is in database
+  2023-06-02 16:37:19 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 16:37:19 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 16:37:19 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 16:48:35 INFO  Main:22 - The main is running
+  2023-06-02 16:48:35 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 16:48:35 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 16:48:35 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 16:48:35 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 16:48:35 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 16:48:35 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 16:48:38 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 16:48:38 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 16:48:38 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 16:48:38 INFO  loginPanel:76 - Username is in database
+  2023-06-02 16:48:38 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 16:48:38 INFO  loginPanel:81 - Password is in database
+  2023-06-02 16:48:38 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 16:48:38 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 16:48:38 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 16:48:45 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 16:51:40 INFO  Main:22 - The main is running
+  2023-06-02 16:51:41 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 16:51:41 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 16:51:41 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 16:51:41 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 16:51:41 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 16:51:41 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 16:51:43 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 16:51:43 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 16:51:43 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 16:51:43 INFO  loginPanel:76 - Username is in database
+  2023-06-02 16:51:43 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 16:51:43 INFO  loginPanel:81 - Password is in database
+  2023-06-02 16:51:43 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 16:51:43 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 16:51:43 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 16:51:47 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 16:52:41 INFO  Main:22 - The main is running
+  2023-06-02 16:52:42 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 16:52:42 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 16:52:42 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 16:52:42 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 16:52:42 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 16:52:42 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 16:52:44 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 16:52:44 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 16:52:44 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 16:52:44 INFO  loginPanel:76 - Username is in database
+  2023-06-02 16:52:44 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 16:52:44 INFO  loginPanel:81 - Password is in database
+  2023-06-02 16:52:44 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 16:52:44 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 16:52:44 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 16:57:37 INFO  Main:22 - The main is running
+  2023-06-02 16:57:38 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 16:57:38 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 16:57:38 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 16:57:38 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 16:57:38 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 16:57:38 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 16:57:41 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 16:57:41 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 16:57:41 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 16:57:41 INFO  loginPanel:76 - Username is in database
+  2023-06-02 16:57:41 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 16:57:41 INFO  loginPanel:81 - Password is in database
+  2023-06-02 16:57:41 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 16:57:41 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 16:57:41 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 16:57:43 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 16:59:26 INFO  Main:22 - The main is running
+  2023-06-02 16:59:26 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 16:59:26 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 16:59:26 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 16:59:27 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 16:59:27 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 16:59:27 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 16:59:31 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 16:59:31 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 16:59:31 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 16:59:31 INFO  loginPanel:76 - Username is in database
+  2023-06-02 16:59:31 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 16:59:31 INFO  loginPanel:81 - Password is in database
+  2023-06-02 16:59:31 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 16:59:31 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 16:59:31 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 16:59:37 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 17:00:18 INFO  Main:22 - The main is running
+  2023-06-02 17:00:19 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 17:00:19 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 17:00:19 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 17:00:19 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 17:00:19 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 17:00:19 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 17:00:21 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 17:00:21 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 17:00:21 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 17:00:21 INFO  loginPanel:76 - Username is in database
+  2023-06-02 17:00:21 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 17:00:21 INFO  loginPanel:81 - Password is in database
+  2023-06-02 17:00:21 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 17:00:21 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 17:00:21 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 17:02:11 INFO  Main:22 - The main is running
+  2023-06-02 17:02:11 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 17:02:11 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 17:02:11 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 17:02:11 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 17:02:11 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 17:02:11 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 17:02:14 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 17:02:14 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 17:02:14 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 17:02:14 INFO  loginPanel:76 - Username is in database
+  2023-06-02 17:02:14 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 17:02:14 INFO  loginPanel:81 - Password is in database
+  2023-06-02 17:02:14 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 17:02:14 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 17:02:14 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 17:02:41 INFO  Main:22 - The main is running
+  2023-06-02 17:02:42 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 17:02:42 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 17:02:42 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 17:02:42 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 17:02:42 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 17:02:42 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 17:02:44 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 17:02:44 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 17:02:44 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 17:02:44 INFO  loginPanel:76 - Username is in database
+  2023-06-02 17:02:44 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 17:02:44 INFO  loginPanel:81 - Password is in database
+  2023-06-02 17:02:44 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 17:02:44 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 17:02:44 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 17:03:15 INFO  Main:22 - The main is running
+  2023-06-02 17:03:15 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 17:03:15 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 17:03:15 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 17:03:15 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 17:03:16 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 17:03:16 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 17:03:18 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 17:03:18 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 17:03:18 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 17:03:18 INFO  loginPanel:76 - Username is in database
+  2023-06-02 17:03:18 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 17:03:18 INFO  loginPanel:81 - Password is in database
+  2023-06-02 17:03:18 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 17:03:18 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 17:03:18 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 17:04:19 INFO  Main:22 - The main is running
+  2023-06-02 17:04:20 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 17:04:20 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 17:04:20 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 17:04:20 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 17:04:20 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 17:04:20 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 17:04:23 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 17:04:23 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 17:04:23 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 17:04:23 INFO  loginPanel:76 - Username is in database
+  2023-06-02 17:04:23 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 17:04:23 INFO  loginPanel:81 - Password is in database
+  2023-06-02 17:04:23 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 17:04:23 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 17:04:23 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 17:04:25 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 17:04:47 INFO  Main:22 - The main is running
+  2023-06-02 17:04:48 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 17:04:48 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 17:04:48 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 17:04:48 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 17:04:48 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 17:04:48 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 17:04:50 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 17:04:50 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 17:04:50 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 17:04:50 INFO  loginPanel:76 - Username is in database
+  2023-06-02 17:04:50 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 17:04:50 INFO  loginPanel:81 - Password is in database
+  2023-06-02 17:04:50 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 17:04:50 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 17:04:50 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 17:10:30 INFO  Main:22 - The main is running
+  2023-06-02 17:10:30 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 17:10:30 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 17:10:30 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 17:10:30 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 17:10:30 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 17:10:30 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 17:10:32 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 17:10:32 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 17:10:32 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 17:10:32 INFO  loginPanel:76 - Username is in database
+  2023-06-02 17:10:32 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 17:10:32 INFO  loginPanel:81 - Password is in database
+  2023-06-02 17:10:32 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 17:10:32 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 17:10:32 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 17:10:35 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 17:11:46 INFO  Main:22 - The main is running
+  2023-06-02 17:11:47 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 17:11:47 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 17:11:47 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 17:11:47 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 17:11:47 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 17:11:47 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 17:11:50 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 17:11:50 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 17:11:50 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 17:11:50 INFO  loginPanel:76 - Username is in database
+  2023-06-02 17:11:50 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 17:11:50 INFO  loginPanel:81 - Password is in database
+  2023-06-02 17:11:50 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 17:11:50 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 17:11:50 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 17:12:08 INFO  Main:22 - The main is running
+  2023-06-02 17:12:08 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 17:12:08 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 17:12:08 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 17:12:08 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 17:12:09 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 17:12:09 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 17:12:10 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 17:12:10 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 17:12:10 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 17:12:10 INFO  loginPanel:76 - Username is in database
+  2023-06-02 17:12:10 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 17:12:10 INFO  loginPanel:81 - Password is in database
+  2023-06-02 17:12:10 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 17:12:10 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 17:12:10 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 17:16:17 INFO  Main:22 - The main is running
+  2023-06-02 17:16:17 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 17:16:17 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 17:16:17 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 17:16:17 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 17:16:17 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 17:16:17 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 17:16:20 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 17:16:20 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 17:16:20 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 17:16:20 INFO  loginPanel:76 - Username is in database
+  2023-06-02 17:16:20 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 17:16:20 INFO  loginPanel:81 - Password is in database
+  2023-06-02 17:16:20 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 17:16:20 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 17:16:20 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 17:18:24 INFO  Main:22 - The main is running
+  2023-06-02 17:18:24 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 17:18:24 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 17:18:24 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 17:18:25 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 17:18:25 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 17:18:25 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 17:18:27 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 17:18:27 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 17:18:27 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 17:18:27 INFO  loginPanel:76 - Username is in database
+  2023-06-02 17:18:27 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 17:18:27 INFO  loginPanel:81 - Password is in database
+  2023-06-02 17:18:27 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 17:18:27 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 17:18:27 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 17:18:29 INFO  deleteById:38 - Order törlése az adatbázisból
   

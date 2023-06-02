@@ -44,15 +44,15 @@ public class Main {
         Command command = new selectOrder(1);
         System.out.println(command.exec());
 
-        command = new deleteById(1);
-        System.out.println(command.exec());
+//        command = new deleteById(1);
+//        System.out.println(command.exec());
 
         System.out.println("#################### TESZT RÉSZ VÉGE ####################");
         //
 
         //mainFrame
-        //Levizsgáljuk, hogy van-e adatbázis kapcsolat. (xampp fut-e)
         if (conn.isConnectedToDatabase()){
+            //Levizsgáljuk, hogy van-e adatbázis kapcsolat. (xampp fut-e)
             loginPanel frame = new loginPanel();
             logger.info("DB connection is up, opening loginpanel");
         }
