@@ -1,5 +1,6 @@
 package dbconn;
 
+
 public interface Command {
-    void exec();
+    String exec();
 }

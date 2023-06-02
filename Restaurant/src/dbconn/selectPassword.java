@@ -17,11 +17,8 @@ public class selectPassword implements Command{
         this.Password = password;
     }
 
-    public String returnPassword(){
-        return row;
-    }
     @Override
-    public void exec() {
+    public String exec() {
         //Lényegében az előző függvény, csak password-el
         //A Függvény visszatér a kiválasztott felhasználó jelszavával amennyiben létezik az adatbázisban,
         //ez azért van, hogy a loginban össze lehessen hasonlítani a beírt jelszóval.
@@ -44,5 +41,7 @@ public class selectPassword implements Command{
         } catch (Exception e){
             System.out.println(e);
         }
+
+        return row;
     }
 }

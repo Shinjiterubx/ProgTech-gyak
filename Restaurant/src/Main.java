@@ -37,12 +37,18 @@ public class Main {
         } catch (Exception e) {
 
         }
+        //TESZTELŐ RÉSZ
 
-        selectPassword command = new selectPassword("asd");
-        command.exec();
-        System.out.println(command.returnPassword());
+        System.out.println("#################### TESZT RÉSZ KEZDETE ####################");
 
+        Command command = new selectOrder(1);
+        System.out.println(command.exec());
 
+        command = new deleteById(1);
+        System.out.println(command.exec());
+
+        System.out.println("#################### TESZT RÉSZ VÉGE ####################");
+        //
 
         //mainFrame
         //Levizsgáljuk, hogy van-e adatbázis kapcsolat. (xampp fut-e)

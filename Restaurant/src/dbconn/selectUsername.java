@@ -18,12 +18,9 @@ public class selectUsername implements Command{
         conn.Connect();
         this.Username = username;
     }
-    public String returnUsername(){
-        return row;
-    }
 
     @Override
-    public void exec() {
+    public String exec() {
         //A Függvény visszatér a kiválasztott felhasználó felhasználónevével amennyiben létezik az adatbázisban,
         //ez azért van, hogy a loginban össze lehessen hasonlítani a beírt felhasználónévvel.
         //A függvény a keresett Usernamet az adatbázisban.
@@ -46,6 +43,6 @@ public class selectUsername implements Command{
             System.out.println(e);
         }
 
-        returnUsername();
+        return row;
     }
 }

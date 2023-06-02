@@ -69,14 +69,15 @@ public class loginPanel extends JFrame {
                 logger.info("Checking username and password");
                 if (!username.isEmpty()){
                     logger.info("Username is not empty");
-                    selectUsername command = new selectUsername(username);
-                    command.exec();
-
-                    if (username.equals(command.returnUsername())) {
+//                    selectUsername command = new selectUsername(username);
+//                    command.exec();
+                    Command command = new selectUsername(username);
+                    if (username.equals(conn.SelectUsername(command.exec()))) {
                         logger.info("Username is in database");
                         if (!password.isEmpty()) {
                             logger.info("Password is not empty");
-                            if (password.equals(SelectPassword(password))) {
+                            command = new selectPassword(password);
+                            if (password.equals(command.exec())) {
                                 logger.info("Password is in database");
                                 logger.info("Matching login credentials");
                                 logger.info("Closing loginPanel");

@@ -11,4 +11,121 @@
   2023-06-01 17:50:53 INFO  loginPanel:81 - Matching login credentials
   2023-06-01 17:50:53 INFO  loginPanel:82 - Closing loginPanel
   2023-06-01 17:50:53 INFO  loginPanel:84 - Opening mainPanel
+  2023-06-02 11:30:26 INFO  Main:22 - The main is running
+  2023-06-02 11:30:28 INFO  Main:54 - DB connection is down, opening error message
+  2023-06-02 11:31:05 INFO  Main:22 - The main is running
+  2023-06-02 11:31:06 INFO  Main:54 - DB connection is down, opening error message
+  2023-06-02 11:36:40 INFO  Main:22 - The main is running
+  2023-06-02 11:36:55 INFO  Main:54 - DB connection is down, opening error message
+  2023-06-02 11:37:36 INFO  Main:22 - The main is running
+  2023-06-02 11:37:41 INFO  Main:54 - DB connection is down, opening error message
+  2023-06-02 11:39:48 INFO  Main:22 - The main is running
+  2023-06-02 11:40:14 INFO  Main:54 - DB connection is down, opening error message
+  2023-06-02 11:41:02 INFO  Main:22 - The main is running
+  2023-06-02 11:41:05 INFO  Main:54 - DB connection is down, opening error message
+  2023-06-02 11:41:56 INFO  Main:22 - The main is running
+  2023-06-02 11:41:57 INFO  Main:54 - DB connection is down, opening error message
+  2023-06-02 11:42:05 INFO  Main:22 - The main is running
+  2023-06-02 11:53:43 INFO  Main:22 - The main is running
+  2023-06-02 11:53:45 INFO  Main:54 - DB connection is down, opening error message
+  2023-06-02 11:54:01 INFO  Main:22 - The main is running
+  2023-06-02 11:54:02 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 11:54:02 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 11:54:02 INFO  Main:50 - DB connection is up, opening loginpanel
+  2023-06-02 11:54:05 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 11:54:05 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 11:54:05 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 11:54:05 INFO  loginPanel:76 - Username is in database
+  2023-06-02 11:54:05 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 11:54:05 INFO  loginPanel:80 - Password is in database
+  2023-06-02 11:54:05 INFO  loginPanel:81 - Matching login credentials
+  2023-06-02 11:54:05 INFO  loginPanel:82 - Closing loginPanel
+  2023-06-02 11:54:05 INFO  loginPanel:84 - Opening mainPanel
+  2023-06-02 11:54:22 INFO  Main:22 - The main is running
+  2023-06-02 11:54:22 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 11:54:22 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 11:54:22 INFO  Main:50 - DB connection is up, opening loginpanel
+  2023-06-02 11:56:06 INFO  Main:22 - The main is running
+  2023-06-02 11:56:07 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 11:56:07 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 11:56:07 INFO  Main:46 - DB connection is up, opening loginpanel
+  2023-06-02 11:56:09 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 11:56:09 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 11:56:09 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 11:56:09 INFO  loginPanel:76 - Username is in database
+  2023-06-02 11:56:09 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 11:56:09 INFO  loginPanel:81 - Password is in database
+  2023-06-02 11:56:09 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 11:56:09 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 11:56:09 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 11:59:36 INFO  Main:22 - The main is running
+  2023-06-02 11:59:36 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 11:59:36 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 11:59:37 INFO  Main:46 - DB connection is up, opening loginpanel
+  2023-06-02 11:59:40 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 11:59:40 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 11:59:40 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 11:59:40 INFO  loginPanel:76 - Username is in database
+  2023-06-02 11:59:40 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 11:59:40 INFO  loginPanel:81 - Password is in database
+  2023-06-02 11:59:40 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 11:59:40 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 11:59:40 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 12:21:58 INFO  Main:22 - The main is running
+  2023-06-02 12:21:58 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 12:21:58 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 12:21:58 INFO  Main:49 - DB connection is up, opening loginpanel
+  2023-06-02 12:22:12 INFO  Main:22 - The main is running
+  2023-06-02 12:22:12 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 12:22:13 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 12:22:13 INFO  Main:49 - DB connection is up, opening loginpanel
+  2023-06-02 12:22:13 INFO  Main:22 - The main is running
+  2023-06-02 12:22:14 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 12:22:14 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 12:22:14 INFO  Main:49 - DB connection is up, opening loginpanel
+  2023-06-02 12:22:19 INFO  Main:22 - The main is running
+  2023-06-02 12:22:20 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 12:22:20 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 12:22:20 INFO  Main:49 - DB connection is up, opening loginpanel
+  2023-06-02 12:38:30 INFO  Main:22 - The main is running
+  2023-06-02 12:38:30 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 12:38:30 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 12:38:30 INFO  Main:49 - DB connection is up, opening loginpanel
+  2023-06-02 12:47:19 INFO  Main:22 - The main is running
+  2023-06-02 12:47:19 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 12:47:19 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 12:47:19 INFO  Main:49 - DB connection is up, opening loginpanel
+  2023-06-02 14:16:54 INFO  Main:22 - The main is running
+  2023-06-02 14:16:54 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 14:16:54 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 14:16:54 INFO  Main:52 - DB connection is up, opening loginpanel
+  2023-06-02 14:18:46 INFO  Main:22 - The main is running
+  2023-06-02 14:18:47 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 14:18:47 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 14:18:47 INFO  Main:52 - DB connection is up, opening loginpanel
+  2023-06-02 14:21:13 INFO  Main:22 - The main is running
+  2023-06-02 14:21:14 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 14:21:14 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 14:21:14 INFO  Main:52 - DB connection is up, opening loginpanel
+  2023-06-02 14:22:03 INFO  Main:22 - The main is running
+  2023-06-02 14:22:04 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 14:22:04 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 14:22:04 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 14:22:12 INFO  loginPanel:62 - Login button is pressed
+  2023-06-02 14:22:12 INFO  loginPanel:69 - Checking username and password
+  2023-06-02 14:22:12 INFO  loginPanel:71 - Username is not empty
+  2023-06-02 14:22:12 INFO  loginPanel:76 - Username is in database
+  2023-06-02 14:22:12 INFO  loginPanel:78 - Password is not empty
+  2023-06-02 14:22:12 INFO  loginPanel:81 - Password is in database
+  2023-06-02 14:22:12 INFO  loginPanel:82 - Matching login credentials
+  2023-06-02 14:22:12 INFO  loginPanel:83 - Closing loginPanel
+  2023-06-02 14:22:12 INFO  loginPanel:85 - Opening mainPanel
+  2023-06-02 14:32:00 INFO  Main:22 - The main is running
+  2023-06-02 14:32:01 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 14:32:01 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 14:32:01 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 14:32:01 INFO  deleteById:38 - Order törlése az adatbázisból
+  2023-06-02 14:32:01 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 14:32:01 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 14:32:01 INFO  Main:57 - DB connection is up, opening loginpanel
   

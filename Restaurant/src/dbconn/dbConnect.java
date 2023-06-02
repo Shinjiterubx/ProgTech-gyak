@@ -45,6 +45,8 @@ public class dbConnect{
         return null;
     }
 
+
+
     //Feldolgozás példa:
 
     //        try{
@@ -100,5 +102,31 @@ public class dbConnect{
         }
 
         return null;
+    }
+
+    public void deleteOrderByOrderNumber(int orderNo){
+        //A Függvény visszatér a kiválasztott id alapján, az adott rendelés összes adatával
+        // (kivéve a létrehozási dátumot, id-t, hidden-e)
+
+
+        ResultSet result;
+        result = SelectAll("orders");
+
+        try{
+            while (result.next() ){
+                String row = result.getString(1);
+                if (Integer.parseInt(row) == orderNo){
+                    if (Integer.parseInt(result.getString(10)) != 1)
+
+                    localcon.createStatement().executeUpdate("update orders set hidden = 1 where id = " + orderNo);
+                    break;
+                }
+                else{
+                    row = null;
+                }
+            }
+        } catch (Exception e){
+            System.out.println(e);
+        }
     }
 }
