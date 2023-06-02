@@ -8,7 +8,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.Date;
 import java.sql.ResultSet;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 
 import static dbconn.dbConnect.SelectAll;
 
@@ -38,7 +41,7 @@ public class mainPanel extends JFrame{
         this.pack();
         this.setVisible(true);
 
-
+        mainPanel panel = this;
 
         JFrame buttonsFieldLayout = new JFrame();
         buttonsFieldLayout.setLayout(new FlowLayout());
@@ -49,6 +52,15 @@ public class mainPanel extends JFrame{
 
         ResultSet resultSet = SelectAll("orders");
 
+        refresh.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                panel.dispose();
+                buttonsFieldLayout.dispose();
+                buttonsField.setVisible(false);
+                mainPanel panel = new mainPanel();
+
+            }
+        });
 
         try{
             while (resultSet.next()) {
@@ -58,6 +70,8 @@ public class mainPanel extends JFrame{
                 String drink = resultSet.getString(5);
                 String note = resultSet.getString(6);
                 byte hidden = resultSet.getByte(10);
+                Date date = resultSet.getDate(9);
+                SimpleDateFormat formatter = new SimpleDateFormat("yyyy-mm-dd");
                 int price = Integer.parseInt(resultSet.getString(7));
                 if (hidden == 0) {
                     JButton button = new JButton("#" + id + " " + name);
@@ -98,11 +112,6 @@ public class mainPanel extends JFrame{
         buttonsFieldLayout.pack();
         buttonsFieldLayout.setVisible(true);
 
-
-
-        //Kijelentkezés gombhoz
-
-        mainPanel panel = this;
 
         //Adatbázis kapcsolat
         dbConnect conn = new dbConnect();
