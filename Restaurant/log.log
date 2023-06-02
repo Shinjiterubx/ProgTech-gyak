@@ -6,4 +6,11 @@
   2023-06-02 14:58:12 INFO  loginPanel:27 - Loginpanel is running
   2023-06-02 14:58:13 INFO  loginPanel:39 - Loginpanel is connecting to DB
   2023-06-02 14:58:13 INFO  Main:57 - DB connection is up, opening loginpanel
+  2023-06-02 17:57:55 INFO  Main:22 - The main is running
+  2023-06-02 17:57:55 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-02 17:57:55 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-02 17:57:55 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-02 17:57:56 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-02 17:57:56 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-02 17:57:56 INFO  Main:57 - DB connection is up, opening loginpanel
   

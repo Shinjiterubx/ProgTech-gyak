@@ -8,6 +8,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
 import java.sql.Date;
 import java.sql.ResultSet;
 import java.text.SimpleDateFormat;
@@ -51,6 +53,9 @@ public class mainPanel extends JFrame{
         buttonsFieldLayout.add(refresh);
 
         ResultSet resultSet = SelectAll("orders");
+
+
+
 
         refresh.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -122,6 +127,75 @@ public class mainPanel extends JFrame{
         exitButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 panel.dispose();
+            }
+        });
+
+
+
+        mainBox.addItemListener(new ItemListener() {
+            @Override
+            public void itemStateChanged(ItemEvent e) {
+
+                sideBox.enableInputMethods(false);
+                String selected = String.valueOf(mainBox.getSelectedItem());
+                IselectionStrategy selection = null;
+                IselectionStrategy side = null;
+                if(selected.equals("Hamburger")){
+                    selection = new hamburgerSelectionStartegy();
+                }
+                else if (selected.equals("Hot-dog")) {
+                    selection = new hotdogSelectionStrategy();
+                }
+                else if(selected.equals("Pizza")){
+                    selection = new pizzaSelectionStrategy();
+                }
+                else {
+                    selection = new nullSelectionStratagy();
+                }
+
+                foodtypeBox.removeAllItems();
+                foodtypeBox.setModel(new DefaultComboBoxModel(selection.getSelectionArray()));
+                selection = new nullSelectionStratagy();
+                sideBox.setModel(new DefaultComboBoxModel(selection.getSelectionArray()));
+
+            }
+        });
+
+
+        foodtypeBox.addItemListener(new ItemListener() {
+            @Override
+            public void itemStateChanged(ItemEvent e) {
+
+
+                String selected = String.valueOf(foodtypeBox.getSelectedItem());
+                IselectionStrategy selection = null;
+
+                if(selected.equals("Duplahúsos")
+                        || selected.equals("Sajtburger")
+                        || selected.equals("Csípősburger")){
+                    selection = new sidehamburgerStrategy();
+                }
+                else if(selected.equals("Sonkás")
+                        || selected.equals("Gombás")
+                        || selected.equals("Szalámis")){
+                    selection = new sidePizzaStrategy();
+                }
+                else if(selected.equals("Sajtos")
+                        || selected.equals("Ketchupos")
+                        || selected.equals("Mustáros")
+                        || selected.equals("Majonézes")){
+                    selection = new sidehotdogStrategy();
+                }
+
+                else {
+                    selection = new nullSelectionStratagy();
+                }
+
+                sideBox.removeAllItems();
+                sideBox.setModel(new DefaultComboBoxModel(selection.getSelectionArray()));
+                //selection = new nullSelectionStratagy();
+                //sideBox.setModel(new DefaultComboBoxModel(selection.getSelectionArray()));
+
             }
         });
 
