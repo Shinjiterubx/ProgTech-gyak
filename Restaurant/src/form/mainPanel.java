@@ -3,6 +3,7 @@ package form;
 import dbconn.Command;
 import dbconn.dbConnect;
 import dbconn.deleteById;
+import dbconn.insertOrder;
 
 import javax.swing.*;
 import java.awt.*;
@@ -32,6 +33,13 @@ public class mainPanel extends JFrame{
     private JPanel buttonsField;
 
 
+    public Integer parseIntOrNull(String value) {
+        try {
+            return Integer.parseInt(value);
+        } catch (NumberFormatException e) {
+            return null;
+        }
+    }
 
     public mainPanel(){
         this.setTitle("Pizza Pizza OrderPanel");
@@ -49,7 +57,7 @@ public class mainPanel extends JFrame{
         buttonsFieldLayout.setLayout(new FlowLayout());
 
         JButton refresh = new JButton("Frissítés");
-
+        refresh.setBackground(Color.GREEN);
         buttonsFieldLayout.add(refresh);
 
         ResultSet resultSet = SelectAll("orders");
@@ -102,7 +110,6 @@ public class mainPanel extends JFrame{
                     });
 
                     buttonsFieldLayout.add(button);
-                    System.out.println("Button hozzáadva");
                 }
             }
         }catch (Exception e){
@@ -112,7 +119,10 @@ public class mainPanel extends JFrame{
         buttonsFieldLayout.add(buttonsField);
         buttonsFieldLayout.setLocationRelativeTo(null);
         buttonsFieldLayout.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        buttonsFieldLayout.setMinimumSize(new Dimension(500, 500));
+        buttonsFieldLayout.setMinimumSize(new Dimension(400, 500));
+        buttonsFieldLayout.setMaximumSize(new Dimension(400, 720));
+        buttonsFieldLayout.setPreferredSize(new Dimension(400, 500));
+        buttonsFieldLayout.setResizable(false);
         buttonsFieldLayout.setTitle("Pizza Pizza Kosár");
         buttonsFieldLayout.pack();
         buttonsFieldLayout.setVisible(true);
@@ -199,5 +209,18 @@ public class mainPanel extends JFrame{
             }
         });
 
+        //Rendelés leadás
+        orderButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+
+                if (parseIntOrNull(priceField.getText()) != null && parseIntOrNull(priceField.getText()) > 0 ){
+                    Command command = new insertOrder((String) mainBox.getSelectedItem(), (String) foodtypeBox.getSelectedItem(), (String) sideBox.getSelectedItem(), (String) drinkBox.getSelectedItem(), extraBox.getText(), priceField.getText());
+                    System.out.println(command.exec());
+                    JOptionPane.showMessageDialog(null, "Sikeres rendelésfelvétel!\nA megjelenítéshez frissítsen!", "Pizza Pizza InfoBox: ", JOptionPane.INFORMATION_MESSAGE);
+                }else{
+                    JOptionPane.showMessageDialog(null, "Az ár mező csak számjegyeket tartalmazhat, nem lehet üres\nnem lehet 0-nál kisebb!", "Pizza Pizza InfoBox: ", JOptionPane.INFORMATION_MESSAGE);
+                }
+            }
+        });
     }
 }

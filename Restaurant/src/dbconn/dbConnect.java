@@ -129,4 +129,12 @@ public class dbConnect{
             System.out.println(e);
         }
     }
+
+    public void insertIntoOrderTable(String mealType, String mealName, String sideDish, String drink, String note, String price){
+        try {
+            localcon.createStatement().executeUpdate("INSERT INTO orders (mealType, mealName, sideDish, drink, note, price) VALUES ('"+mealType+"', '"+mealName+"', '"+sideDish+"', '"+drink+"', '"+note+"', '"+price+"')");
+        }catch (Exception e){
+            System.out.println(e);
+        }
+    }
 }

@@ -47,6 +47,9 @@ public class Main {
 //        command = new deleteById(1);
 //        System.out.println(command.exec());
 
+//        command = new insertOrder("Pizza", "Prémium", "Nem kérek", "Pepsi 2.25", "Ezt se viszem ki", "3500");
+//        System.out.println(command.exec());
+
         System.out.println("#################### TESZT RÉSZ VÉGE ####################");
         //
 
