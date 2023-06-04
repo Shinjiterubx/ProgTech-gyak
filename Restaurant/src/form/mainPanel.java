@@ -4,6 +4,7 @@ import dbconn.Command;
 import dbconn.dbConnect;
 import dbconn.deleteById;
 import dbconn.insertOrder;
+import org.apache.log4j.Logger;
 
 import javax.swing.*;
 import java.awt.*;
@@ -15,11 +16,11 @@ import java.sql.Date;
 import java.sql.ResultSet;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
-import java.util.logging.Logger;
 
 import static dbconn.dbConnect.SelectAll;
 
 public class mainPanel extends JFrame{
+    static org.apache.log4j.Logger logger = Logger.getLogger(form.mainPanel.class);
 
     private JComboBox mainBox;
     private JComboBox foodtypeBox;
@@ -87,6 +88,11 @@ public class mainPanel extends JFrame{
                 byte hidden = resultSet.getByte(10);
                 Date date = resultSet.getDate(9);
                 SimpleDateFormat formatter = new SimpleDateFormat("yyyy-mm-dd");
+                logger.info("SQL query "
+                        + name + " "
+                        + sideDish + " "
+                        + drink + " "
+                        + note);
                 int price = Integer.parseInt(resultSet.getString(7));
                 if (hidden == 0) {
                     JButton button = new JButton("#" + id + " " + name);
@@ -154,15 +160,19 @@ public class mainPanel extends JFrame{
                 IselectionStrategy side = null;
                 if(selected.equals("Hamburger")){
                     selection = new hamburgerSelectionStartegy();
+                    logger.info("Hamburger selected");
                 }
                 else if (selected.equals("Hot-dog")) {
                     selection = new hotdogSelectionStrategy();
+                    logger.info("Hot-dog selected");
                 }
                 else if(selected.equals("Pizza")){
                     selection = new pizzaSelectionStrategy();
+                    logger.info("Pizza selected");
                 }
                 else {
                     selection = new nullSelectionStratagy();
+                    logger.info("Null selected");
                 }
 
                 foodtypeBox.removeAllItems();
@@ -187,18 +197,21 @@ public class mainPanel extends JFrame{
                         || selected.equals("Sajtburger")
                         || selected.equals("Csípősburger")){
                     selection = new sidehamburgerStrategy();
+                    logger.info("Element selected");
 
                 }
                 else if(selected.equals("Sonkás")
                         || selected.equals("Gombás")
                         || selected.equals("Szalámis")){
                     selection = new sidePizzaStrategy();
+                    logger.info("Element selected");
                 }
                 else if(selected.equals("Sajtos")
                         || selected.equals("Ketchupos")
                         || selected.equals("Mustáros")
                         || selected.equals("Majonézes")){
                     selection = new sidehotdogStrategy();
+                    logger.info("Element selected");
                 }
 
                 else {
