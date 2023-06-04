@@ -87,4 +87,46 @@
   2023-06-04 19:43:58 INFO  mainPanel:91 - SQL query Pizza Paradicsomos alap Coca Cola Gyorsan vidd ki
   2023-06-04 19:43:58 INFO  mainPanel:91 - SQL query Hot-dog Szárított hagyma Coca Cola Vidd ki batjya
   2023-06-04 19:43:58 INFO  mainPanel:91 - SQL query Pizza Tejfölös alap Fanta Asd
+  2023-06-04 22:43:35 INFO  Main:22 - The main is running
+  2023-06-04 22:43:36 INFO  Main:34 - The Nimbus design is right!
+  2023-06-04 22:43:36 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-04 22:43:36 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-04 22:43:37 INFO  Main:67 - DB connection is down, opening error message
+  2023-06-04 22:44:09 INFO  Main:22 - The main is running
+  2023-06-04 22:44:09 INFO  Main:34 - The Nimbus design is right!
+  2023-06-04 22:44:09 INFO  selectOrder:30 - SQL lekérdezés adatbázis kapcsolat
+  2023-06-04 22:44:09 INFO  selectOrder:32 - Lekérdezés meghívása
+  2023-06-04 22:44:09 INFO  selectOrder:51 - Sikeres lekérdezés a orders-ből
+  2023-06-04 22:44:10 INFO  loginPanel:27 - Loginpanel is running
+  2023-06-04 22:44:10 INFO  loginPanel:39 - Loginpanel is connecting to DB
+  2023-06-04 22:44:10 INFO  Main:63 - DB connection is up, opening loginpanel
+  2023-06-04 22:44:15 INFO  loginPanel:124 - Key pressed!
+  2023-06-04 22:44:16 INFO  mainPanel:91 - SQL query Hamburger Sültkrumpli Pepsi vigye ki a gyász
+  2023-06-04 22:44:16 INFO  mainPanel:91 - SQL query Pizza Paradicsomos alap Coca Cola Gyorsan vidd ki
+  2023-06-04 22:44:16 INFO  mainPanel:91 - SQL query Hot-dog Szárított hagyma Coca Cola Vidd ki batjya
+  2023-06-04 22:44:16 INFO  mainPanel:91 - SQL query Pizza Tejfölös alap Fanta Asd
+  2023-06-04 22:44:18 INFO  mainPanel:91 - SQL query Hamburger Sültkrumpli Pepsi vigye ki a gyász
+  2023-06-04 22:44:18 INFO  mainPanel:91 - SQL query Pizza Paradicsomos alap Coca Cola Gyorsan vidd ki
+  2023-06-04 22:44:18 INFO  mainPanel:91 - SQL query Hot-dog Szárított hagyma Coca Cola Vidd ki batjya
+  2023-06-04 22:44:18 INFO  mainPanel:91 - SQL query Pizza Tejfölös alap Fanta Asd
+  2023-06-04 22:44:21 INFO  deleteById:22 - Az order number nagyobb volt 0-nál
+  2023-06-04 22:44:22 INFO  deleteById:40 - Order törlése az adatbázisból
+  2023-06-04 22:44:23 INFO  mainPanel:91 - SQL query Hamburger Sültkrumpli Pepsi vigye ki a gyász
+  2023-06-04 22:44:23 INFO  mainPanel:91 - SQL query Pizza Paradicsomos alap Coca Cola Gyorsan vidd ki
+  2023-06-04 22:44:23 INFO  mainPanel:91 - SQL query Hot-dog Szárított hagyma Coca Cola Vidd ki batjya
+  2023-06-04 22:44:23 INFO  mainPanel:91 - SQL query Pizza Tejfölös alap Fanta Asd
+  2023-06-04 22:44:33 INFO  mainPanel:200 - Element selected
+  2023-06-04 22:44:33 INFO  mainPanel:200 - Element selected
+  2023-06-04 22:44:35 INFO  mainPanel:171 - Pizza selected
+  2023-06-04 22:44:35 INFO  mainPanel:171 - Pizza selected
+  2023-06-04 22:44:39 INFO  mainPanel:207 - Element selected
+  2023-06-04 22:44:39 INFO  mainPanel:207 - Element selected
+  2023-06-04 22:44:43 INFO  deleteById:40 - Az ár be lett állítva
+  2023-06-04 22:44:43 INFO  deleteById:60 - A megrendelés beinsertálva!
+  2023-06-04 22:44:44 INFO  mainPanel:91 - SQL query Hamburger Sültkrumpli Pepsi vigye ki a gyász
+  2023-06-04 22:44:44 INFO  mainPanel:91 - SQL query Pizza Paradicsomos alap Coca Cola Gyorsan vidd ki
+  2023-06-04 22:44:44 INFO  mainPanel:91 - SQL query Hot-dog Szárított hagyma Coca Cola Vidd ki batjya
+  2023-06-04 22:44:44 INFO  mainPanel:91 - SQL query Pizza Tejfölös alap Fanta Asd
+  2023-06-04 22:44:44 INFO  mainPanel:91 - SQL query Pizza Paradicsomos alap Coca Cola asd
+  2023-06-04 22:44:46 INFO  deleteById:22 - Az order number nagyobb volt 0-nál
   

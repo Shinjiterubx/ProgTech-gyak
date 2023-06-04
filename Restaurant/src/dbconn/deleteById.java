@@ -19,8 +19,10 @@ public class deleteById implements Command{
     public void setOrderNo(int orderNo) {
         if (orderNo > 0){
             this.orderNo = orderNo;
+            logger.info("Az order number nagyobb volt 0-nál");
         }else{
             System.out.println("Az order numbernek nagyobbnak kell lennie 0-nál");
+            logger.info("Az order number kisebb volt 0-nál");
         }
     }
 

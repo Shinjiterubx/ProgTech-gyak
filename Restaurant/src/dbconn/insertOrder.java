@@ -1,6 +1,9 @@
 package dbconn;
 
+import org.apache.log4j.Logger;
+
 public class insertOrder implements Command{
+    static Logger logger = Logger.getLogger(deleteById.class);
     dbConnect conn = new dbConnect();
 
     String mealType;
@@ -30,9 +33,11 @@ public class insertOrder implements Command{
     public void setPrice(String price) {
         if (parseIntOrNull(price) == null){
             System.out.println("Az ár nem lehet szöveg!");
+            logger.info("Az ár nem volt szöveg");
         }
         else {
             this.Price = price;
+            logger.info("Az ár be lett állítva");
         }
     }
 
@@ -52,6 +57,7 @@ public class insertOrder implements Command{
         this.drink = drink;
         this.note = note;
         setPrice(price);
+        logger.info("A megrendelés beinsertálva!");
     }
 
     @Override
