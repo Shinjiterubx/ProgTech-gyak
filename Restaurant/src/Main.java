@@ -31,7 +31,10 @@ public class Main {
             for (LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
                     UIManager.setLookAndFeel(info.getClassName());
+                    logger.info("The Nimbus design is right!");
                     break;
+
+
                 }
             }
         } catch (Exception e) {

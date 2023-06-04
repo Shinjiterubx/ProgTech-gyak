@@ -121,6 +121,7 @@ public class loginPanel extends JFrame {
               if (e.getKeyCode() == KeyEvent.VK_ENTER){
                   String username = usernameInput.getText();
                   String password = new String(passwordInput.getPassword());
+                  logger.info("Key pressed!");
 
                   //Felhasználónév és jelszó levizsgálása,
                   // egyezik-e az adatbázisban szereplővel, üresek-
@@ -132,6 +133,7 @@ public class loginPanel extends JFrame {
                           System.out.println("Login succesfull!");
                       } else {
                           JOptionPane.showMessageDialog(null, "Rossz felhasználónév vagy jelszó!", "Pizza Pizza InfoBox: ", JOptionPane.INFORMATION_MESSAGE);
+                          logger.info("Login failed!");
                       }
                   }
                   else{

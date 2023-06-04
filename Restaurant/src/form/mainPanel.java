@@ -15,10 +15,12 @@ import java.sql.Date;
 import java.sql.ResultSet;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
+import java.util.logging.Logger;
 
 import static dbconn.dbConnect.SelectAll;
 
 public class mainPanel extends JFrame{
+
     private JComboBox mainBox;
     private JComboBox foodtypeBox;
     private JComboBox sideBox;
@@ -177,6 +179,7 @@ public class mainPanel extends JFrame{
             public void itemStateChanged(ItemEvent e) {
 
 
+
                 String selected = String.valueOf(foodtypeBox.getSelectedItem());
                 IselectionStrategy selection = null;
 
@@ -184,6 +187,7 @@ public class mainPanel extends JFrame{
                         || selected.equals("Sajtburger")
                         || selected.equals("Csípősburger")){
                     selection = new sidehamburgerStrategy();
+
                 }
                 else if(selected.equals("Sonkás")
                         || selected.equals("Gombás")
